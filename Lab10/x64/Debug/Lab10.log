@@ -1,0 +1,5 @@
+﻿  Lab10.cpp
+  MyVector.cpp
+  Generating Code...
+C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(16,1): warning C4715: 'MyVector::get': not all control paths return a value
+  Lab10.vcxproj -> C:\School Work\ICS214\Lab10\x64\Debug\Lab10.exe
