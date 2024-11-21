@@ -11,8 +11,8 @@
 // Uncomment each of these once you have finished the stage.  
 // This will enable automated testing to try to help catch any problems.
 #define STAGE_1_COMPLETE
-//#define STAGE_2_COMPLETE
-//#define STAGE_3_COMPLETE
+#define STAGE_2_COMPLETE
+#define STAGE_3_COMPLETE
 //#define STAGE_4_COMPLETE
 
 // This class will allow us to do some automated testing on the first 4 stages
