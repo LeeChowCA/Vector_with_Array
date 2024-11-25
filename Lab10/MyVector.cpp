@@ -1,12 +1,12 @@
 #include "MyVector.h"
 
-MyVector::MyVector(int size) : pItems(nullptr), m_size(size) {
+MyVector::MyVector(int size) : pItems(nullptr), m_size(size), m_capacity(size) {
 	if (size < 0) {
 		throw std::length_error("please enter a valid length");
 	}
 
 	if (size > 0) {
-		pItems = new double[m_size + 1] {};
+		pItems = new double[m_size] {};
 	}
 }
 
@@ -18,7 +18,6 @@ MyVector::MyVector(const std::initializer_list<double>& list) : MyVector(static_
 			pItems[count] = element;
 			++count;
 		}
-		pItems[count] = '\0';
 	}
 }
 
@@ -26,7 +25,6 @@ MyVector::MyVector(const MyVector& v) : MyVector(v.size()) {
 	for (int i = 0; i < v.size(); i++) {
 		pItems[i] = v.get(i);
 	}
-	pItems[v.size()] = '\0';
 }
 
 
@@ -37,7 +35,6 @@ bool MyVector::rangeCheck(int index) const {
 	}
 	return true;
 }
-
 
 
 double MyVector::get(int index) const {
@@ -61,13 +58,13 @@ MyVector& MyVector::operator=(const MyVector& v) {
 
 	if (v.m_size > 0) {
 		m_size = v.m_size;
+		m_capacity = m_size;
 		//m_size + 1, because we are using array, the last element is '\0'
-		pItems = new double[v.m_size + 1];
+		pItems = new double[v.m_size];
 
 		for (int i = 0; i < v.m_size; i++) {
 			pItems[i] = v.pItems[i];
 		}
-		pItems[m_size] = '\0';
 	}
 	else {
 		pItems = nullptr;
@@ -88,7 +85,6 @@ const double& MyVector::operator[](int index) const {
 	}
 }
 
-
 std::ostream& operator<<(std::ostream& out, const MyVector& v) {
 	if (v.size() == 0) {
 		out << "[]";
@@ -105,3 +101,50 @@ std::ostream& operator<<(std::ostream& out, const MyVector& v) {
 	return out;
 }
 
+int MyVector::capacity() const {
+	return m_capacity;
+}
+
+void MyVector::reserve(int newCapacity) {
+	if (newCapacity > m_capacity) {
+		double* temp = new double[newCapacity] {};
+
+		for (int i = 0; i < m_capacity; i++) {
+			temp[i] = pItems[i];
+		}
+
+		delete[] pItems;
+
+		pItems = temp;
+
+		m_capacity = newCapacity;
+	}
+}
+
+void MyVector::resize(int newSize) {
+	if (newSize < 0) throw std::length_error("length should be greater than 0");
+	reserve(newSize);
+
+	for (int i = m_size; i < newSize; i++) {
+		pItems[i] = 0;
+	}
+
+	m_size = newSize;
+}
+
+void MyVector::push_back(double value) {
+	if (m_capacity == 0) reserve(8);
+	if (m_size == m_capacity) reserve(2 * m_size);
+	pItems[m_size] = value;
+	m_size++;
+}
+
+double MyVector::pop_back() {
+	if (m_size == 0) throw std::exception("cannot pop_back() an empty vector");
+
+	double valueToReturn{pItems[m_size - 1]};
+
+	resize(m_size - 1);
+
+	return valueToReturn;
+}

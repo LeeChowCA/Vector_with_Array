@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|solutionrelative:Lab10\\Lab10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|C:\\School Work\\ICS214\\Lab10\\Lab10\\MyVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|solutionrelative:Lab10\\MyVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|C:\\School Work\\ICS214\\Lab10\\Lab10\\TestSuite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|solutionrelative:Lab10\\TestSuite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|C:\\School Work\\ICS214\\Lab10\\Lab10\\TestSuiteTemplate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|solutionrelative:Lab10\\TestSuiteTemplate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|C:\\School Work\\ICS214\\Lab10\\Lab10\\MyVector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|solutionrelative:Lab10\\MyVector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|C:\\School Work\\ICS214\\Lab10\\Lab10\\MyVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|solutionrelative:Lab10\\MyVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|C:\\School Work\\ICS214\\Lab10\\Lab10\\Cents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|solutionrelative:Lab10\\Cents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|C:\\School Work\\ICS214\\Lab10\\Lab10\\Cents.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E95B3758-C9F9-4637-9525-2E0801655E3F}|Lab10\\Lab10.vcxproj|solutionrelative:Lab10\\Cents.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +37,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 129,
+          "DockedWidth": 143,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -30,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MyVector.h",
               "DocumentMoniker": "C:\\School Work\\ICS214\\Lab10\\Lab10\\MyVector.h",
               "RelativeDocumentMoniker": "Lab10\\MyVector.h",
               "ToolTip": "C:\\School Work\\ICS214\\Lab10\\Lab10\\MyVector.h",
               "RelativeToolTip": "Lab10\\MyVector.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-19T05:22:03.967Z",
               "EditorCaption": ""
@@ -44,20 +60,72 @@
           ]
         },
         {
-          "DockedWidth": 164,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 150,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestSuiteTemplate.h",
+              "DocumentMoniker": "C:\\School Work\\ICS214\\Lab10\\Lab10\\TestSuiteTemplate.h",
+              "RelativeDocumentMoniker": "Lab10\\TestSuiteTemplate.h",
+              "ToolTip": "C:\\School Work\\ICS214\\Lab10\\Lab10\\TestSuiteTemplate.h",
+              "RelativeToolTip": "Lab10\\TestSuiteTemplate.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-25T00:43:36.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TestSuite.h",
+              "DocumentMoniker": "C:\\School Work\\ICS214\\Lab10\\Lab10\\TestSuite.h",
+              "RelativeDocumentMoniker": "Lab10\\TestSuite.h",
+              "ToolTip": "C:\\School Work\\ICS214\\Lab10\\Lab10\\TestSuite.h*",
+              "RelativeToolTip": "Lab10\\TestSuite.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-24T22:22:15.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MyVector.cpp",
               "DocumentMoniker": "C:\\School Work\\ICS214\\Lab10\\Lab10\\MyVector.cpp",
               "RelativeDocumentMoniker": "Lab10\\MyVector.cpp",
               "ToolTip": "C:\\School Work\\ICS214\\Lab10\\Lab10\\MyVector.cpp",
               "RelativeToolTip": "Lab10\\MyVector.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAUwI0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-19T05:23:06.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cents.cpp",
+              "DocumentMoniker": "C:\\School Work\\ICS214\\Lab10\\Lab10\\Cents.cpp",
+              "RelativeDocumentMoniker": "Lab10\\Cents.cpp",
+              "ToolTip": "C:\\School Work\\ICS214\\Lab10\\Lab10\\Cents.cpp",
+              "RelativeToolTip": "Lab10\\Cents.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-24T22:32:59.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cents.h",
+              "DocumentMoniker": "C:\\School Work\\ICS214\\Lab10\\Lab10\\Cents.h",
+              "RelativeDocumentMoniker": "Lab10\\Cents.h",
+              "ToolTip": "C:\\School Work\\ICS214\\Lab10\\Lab10\\Cents.h",
+              "RelativeToolTip": "Lab10\\Cents.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-24T22:33:01.591Z",
               "EditorCaption": ""
             },
             {
@@ -66,9 +134,9 @@
               "Title": "Lab10.cpp",
               "DocumentMoniker": "C:\\School Work\\ICS214\\Lab10\\Lab10\\Lab10.cpp",
               "RelativeDocumentMoniker": "Lab10\\Lab10.cpp",
-              "ToolTip": "C:\\School Work\\ICS214\\Lab10\\Lab10\\Lab10.cpp",
-              "RelativeToolTip": "Lab10\\Lab10.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\School Work\\ICS214\\Lab10\\Lab10\\Lab10.cpp*",
+              "RelativeToolTip": "Lab10\\Lab10.cpp*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAFUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-19T05:12:21.775Z",
               "EditorCaption": ""

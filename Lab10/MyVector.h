@@ -2,18 +2,23 @@
 #define MYVECTOR_H
 #include "DebugNewOp.h"
 #include <stdexcept>
-#include <ostream>
+#include <iostream>
 #include <initializer_list>
-
+#include "DebugNewOp.h"
+#include "MyVector.h"
+#include <cassert>
+#include <vector>
+#include "Cents.h"
 
 class MyVector {
 private:
 	int m_size{};
 	double* pItems{};
-
 	bool rangeCheck(int index) const;
+	int m_capacity{};
+
 public:
-	MyVector() :m_size(0), pItems(nullptr) {}
+	MyVector() :m_size(0), m_capacity(0), pItems(nullptr) {}
 
 
 	//because we want to prevent the situation like MyVector v = 10; so put explicit before
@@ -47,7 +52,24 @@ public:
 	double& operator[](int index);
 
 	//this is for const MyVector type, in this case the return value can't be changed.
-	const double& operator[](int index) const;	
+	const double& operator[](int index) const;
+
+	// this is a getter that's used to return the capacity of MyVector.
+	int capacity() const;
+
+	//this function is used to reserve the capacity of MyVector
+	void reserve(int newCapacity);
+
+	//this is used to resize the size of MyVector.
+	void resize(int newSize);
+
+	//this push the element into the end of MyVector
+	void push_back(double value);
+
+	// this will return the last element in MyVector and reduce the size by 1
+	double pop_back();
+
+
 };
 
 //overload the << operator to output the elements stored in the array in [ e1, e2, e3 ...] format.

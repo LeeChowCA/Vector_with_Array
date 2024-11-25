@@ -1,7 +1,7 @@
 ﻿  Lab10.cpp
   MyVector.cpp
   Generating Code...
-C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(48,1): warning C4715: 'MyVector::get': not all control paths return a value
-C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(90,1): warning C4715: 'MyVector::operator[]': not all control paths return a value
-C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(84,1): warning C4715: 'MyVector::operator[]': not all control paths return a value
+C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(44,1): warning C4715: 'MyVector::get': not all control paths return a value
+C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(86,1): warning C4715: 'MyVector::operator[]': not all control paths return a value
+C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(80,1): warning C4715: 'MyVector::operator[]': not all control paths return a value
   Lab10.vcxproj -> C:\School Work\ICS214\Lab10\x64\Debug\Lab10.exe
