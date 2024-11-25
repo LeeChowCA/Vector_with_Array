@@ -1,4 +1,6 @@
-#include "TestSuite.h"
+//#include "TestSuite.h"
+#include "TestSuiteTemplate.h"
+
 
 void tests() {
 	try {
@@ -59,7 +61,7 @@ void tests() {
 		//	std::cout << "v.size:" << v.size() << ", v.capacity:" << v.capacity() << "\n";
 		//}
 
-		MyVector v{};
+		MyVector<int> v{};
 		
 		for (int i = 0; i < 20; i++) {
 			v.push_back(0.0);
@@ -83,7 +85,8 @@ void tests() {
 
 int main() {
 	_CrtMemDumpAllObjectsSince(NULL); // for detecting memory leaks
-	TestSuite::runTestSuite();
+	//TestSuite::runTestSuite();
+	TestSuiteTemplate::runTestSuite();
 
 	//tests();
 

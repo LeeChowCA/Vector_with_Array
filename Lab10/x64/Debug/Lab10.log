@@ -1,7 +1,10 @@
 ﻿  Lab10.cpp
-  MyVector.cpp
-  Generating Code...
-C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(44,1): warning C4715: 'MyVector::get': not all control paths return a value
-C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(86,1): warning C4715: 'MyVector::operator[]': not all control paths return a value
-C:\School Work\ICS214\Lab10\Lab10\MyVector.cpp(80,1): warning C4715: 'MyVector::operator[]': not all control paths return a value
+C:\School Work\ICS214\Lab10\Lab10\Lab10.cpp(67,16): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+C:\School Work\ICS214\Lab10\Lab10\Lab10.cpp(67,16): warning C4244:         with
+C:\School Work\ICS214\Lab10\Lab10\Lab10.cpp(67,16): warning C4244:         [
+C:\School Work\ICS214\Lab10\Lab10\Lab10.cpp(67,16): warning C4244:             T=int
+C:\School Work\ICS214\Lab10\Lab10\Lab10.cpp(67,16): warning C4244:         ]
+C:\School Work\ICS214\Lab10\Lab10\MyVector.h(138,1): warning C4715: 'MyVector<Cents>::get': not all control paths return a value
+C:\School Work\ICS214\Lab10\Lab10\MyVector.h(176,1): warning C4715: 'MyVector<Cents>::operator[]': not all control paths return a value
+C:\School Work\ICS214\Lab10\Lab10\MyVector.h(182,1): warning C4715: 'MyVector<Cents>::operator[]': not all control paths return a value
   Lab10.vcxproj -> C:\School Work\ICS214\Lab10\x64\Debug\Lab10.exe
